@@ -1,0 +1,39 @@
+{
+  "name": "Eat_Rainbow_RN_CLI",
+  "displayName": "Eat_Rainbow_RN_CLI",
+  "slug": "EatRainbow",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/images/icon.png",
+  "scheme": "myapp",
+  "userInterfaceStyle": "automatic",
+  "splash": {
+    "image": "./assets/images/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/images/adaptive-icon.png",
+      "backgroundColor": "#ffffff"
+    },
+    "package": "com.groverception.eatrainbow"
+  },
+  "web": {
+    "favicon": "./assets/images/favicon.png"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "2ca3186a-807d-444d-8d2f-d9aacdacfa33"
+    }
+  }
+}
